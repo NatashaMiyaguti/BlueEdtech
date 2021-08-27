@@ -122,6 +122,6 @@ while ( answer === 'S' || answer === 's' ) {
             console.log();
             answer = prompt('Deseja jogar novamente? [S / N] ');
         }
-} if (answer = 'N') {
+} if (answer === 'N' || answer === 'n') {
     console.log('Até a volta! =D')
 }
