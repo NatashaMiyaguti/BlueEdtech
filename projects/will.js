@@ -24,7 +24,7 @@ while (comeco==="S"&&"s" ){
 reset();
 
     let v1 = +prompt("Digite quantas rodadas deseja jogar: ");
-    console.log();
+    console.log(v1);
     
     do{
 
@@ -58,8 +58,9 @@ reset();
             }else { computador === v2;
             console.log("Empate");
             }
-         
-            
+        
+            --v1;
+            console.log(v1);
     
             console.log("====================================================================================");
             if (w1 > l1) { 
@@ -68,7 +69,7 @@ reset();
             console.log("Perderdor");
             } else { 
             console.log("Empate");
-            v1 = --v1;
+            
             }
         } 
     }
