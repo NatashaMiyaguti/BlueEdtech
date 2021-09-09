@@ -12,7 +12,9 @@
 
 const prompt = require('prompt-sync')();
 
-// Had specifically this Panel ideia hoping Blue EdTech can become a more diverse and inclusive school.
+/*  Had specifically this Panel ideia hoping Blue EdTech can become a more diverse and inclusive school.
+    All the candidates info was extracted from LinkedIn!
+*/
 
 console.log('============================================================================================');
 console.log('||                 Seja bem-vinde ao Painel de Inclusão Blue EdTech =D                    ||');
