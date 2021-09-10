@@ -89,7 +89,7 @@ do {
     console.log();
 } while (ans === 'S');
 
-var anoAtual = 0;
+var anoAtual = new Date().getFullYear();
 var anoNascimento = 0;
 
 var voto = 0;
@@ -115,14 +115,9 @@ do { // Starting Task 2
 
     function autorizaVoto(anoNascimento){
         
-        anoAtual = prompt('Qual ano nós estamos? ---> ');
-            while (!/^[0-9]+$/.test(anoAtual)) {
-                console.log("O que você digitou não é um número!");
-                anoAtual = prompt('Qual ano nós estamos? ---> ');
-            }
         console.log();
         
-        let idade = anoAtual - anoNascimento; // Refactor this part using Time Function
+        let idade = anoAtual - anoNascimento; 
 
         if ( idade >= 16 && idade <= 17 || idade >= 70 ) {
             console.log(`Você tem ${idade} anos e seu voto é OPCIONAL`);
