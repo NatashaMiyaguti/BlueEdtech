@@ -195,7 +195,7 @@ do {
         console.log();
       } 
         else if ( ans2 === 'P') {
-          bag.push(arrow = new Wallet ('flecha ', true));
+          bag.push(arrow = new Wallet ('flecha ', false));
         }
 
   // Narrative part.6
@@ -253,7 +253,7 @@ do {
         console.log();
       } 
         else if ( ans4 === 'P') {
-          bag.push(nut = new Wallet ('noz ', true));
+          bag.push(nut = new Wallet ('noz ', false));
         }
       
   // Organizing the bag to name items only so I can show them later
